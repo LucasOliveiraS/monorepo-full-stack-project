@@ -1,0 +1,17 @@
+{
+  "name": "hipster-projects",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lucas Oliveira <oliveirasp6@gmail.com>",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "@monorepo/eslint-config": "*",
+    "typescript": "^4.0.2"
+  }
+}
